@@ -1,0 +1,23 @@
+#Extend the following BankAccount class to a CheckingAccount class that charges $1 for every deposit and withdrawal
+
+class AccountInfo(savings : Double){
+private var balance = savings
+
+def deposit(amount : Double)= {balance += amount
+balance -= 1
+println ("Account Balance with charges $1 " + balance)}
+
+def withdraw (amount : Double)= if(balance > amount){balance -= amount
+balance -= 1
+println ("Account Balance with charges $1" + balance)
+}}
+
+#object for this class AccountInfo
+
+object AccAct{
+var balance = 10000
+def main(args : Array[String])= {
+var Account = new AccountInfo (balance)
+Account.deposit (5000)
+Account.withdraw (2500)
+}}
