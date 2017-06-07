@@ -1,0 +1,10 @@
+#Implement the factorial function using to and reduceLeft, without a loop or recursion
+
+object Main{
+def main(args : Array[String]){
+println(factX(8))
+}
+def factX(a : Int) : Int ={
+if (a <= 1) 1
+else a * factX(a - 1)
+} }
