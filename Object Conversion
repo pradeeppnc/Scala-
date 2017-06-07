@@ -1,0 +1,21 @@
+Write an object Conversions with methods inchestoFeet, milestoKms and poundsToKilos and invoke it’s methods from a class of your choice
+
+object Conversions{
+def main(args : Array[String]){
+var x = 10
+var InchestoFeet = inchestoFeet(x)
+println(x + " Inches is equal to " + InchestoFeet + "Feet")
+
+var x = 10
+var MilestoKms = milestoKms(x)
+println(x + " Miles is equal to " + MilestoKms + "Kms")
+
+var x = 10
+var PoundstoKilos = poundsToKilos(x)
+println(x + " Pounds is equal to " + PoundstoKilos + "Kilos")
+ }
+ 
+def inchestoFeet(InchestoFeet : Double){InchestoFeet/12}
+def milestoKms (MilestoKms : Double){MilestoKms*1.609344}
+def poundsToKilos (PoundstoKilos : Double){PoundstoKilos*0.453592}
+}
