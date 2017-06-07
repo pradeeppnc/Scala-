@@ -1,3 +1,5 @@
+#Write a Scala program to get the largest element of an array using reduceLeft
+
 object Main{
 def main(args : Array[String]){
 var a = Array(12, 11, 15, 21, 56, 98, 8, 25, 67, 45)
