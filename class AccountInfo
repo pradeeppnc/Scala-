@@ -1,0 +1,21 @@
+#Write a class AccountInfo with methods deposit and withdraw, and a read-only property balance
+
+class AccountInfo(savings : Double){
+private var balance = savings
+
+def deposit(amount : Double)= {balance += amount
+println ("Account Balance " + balance)}
+
+def withdraw (amount : Double)= if(balance > amount){balance -= amount
+println ("Account Balance " + balance)
+}}
+
+#object for this class AccountInfo
+
+object AccAct{
+var balance = 10000
+def main(args : Array[String])= {
+var Account = new AccountInfo (balance)
+Account.deposit (5000)
+Account.withdraw (2500)
+}}
