@@ -1,4 +1,4 @@
-Write an object Conversions with methods inchestoFeet, milestoKms and poundsToKilos and invoke it’s methods from a class of your choice
+#Write an object Conversions with methods inchestoFeet, milestoKms and poundsToKilos and invoke it’s methods from a class of your choice
 
 object Conversions{
 def main(args : Array[String]){
