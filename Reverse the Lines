@@ -1,6 +1,7 @@
 # Write a Scala code which reverses the lines of a file (makes the first line as the last one, and so on)
 
+object Main{
 def main (args: Array[String]) {
 var a = "Hello World"
 println(a.getLines.toArray.reverse.mkString(" "))
-}
+}}
