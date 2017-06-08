@@ -1,6 +1,6 @@
 #Write an object Conversions with methods inchestoFeet, milestoKms and poundsToKilos and invoke it’s methods from a class of your choice
 
-object Conversions{
+object Main{
 def main(args : Array[String]){
 var x = 10
 var InchestoFeet = inchestoFeet(x)
