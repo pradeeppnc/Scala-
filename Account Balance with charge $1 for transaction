@@ -5,11 +5,11 @@ private var balance = savings
 
 def deposit(amount : Double)= {balance += amount
 balance -= 1
-println ("Account Balance with charges $1 " + balance)}
+println ("Account Balance with charges $1 : " + balance)}
 
 def withdraw (amount : Double)= if(balance > amount){balance -= amount
 balance -= 1
-println ("Account Balance with charges $1" + balance)
+println ("Account Balance with charges $1 : " + balance)
 }}
 
 #object for this class AccountInfo
