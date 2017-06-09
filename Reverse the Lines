@@ -5,3 +5,15 @@ def main (args: Array[String]) {
 var a = "Hello World"
 println(a.getLines.toArray.reverse.mkString(" "))
 }}
+
+
+
+#Type 2
+
+object Reverse{
+def apply(s : String) : String =
+s.reverse
+}
+
+#Example
+Reverse("Hello")
